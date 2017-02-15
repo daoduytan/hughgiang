@@ -1,0 +1,74 @@
+/*==========  NAVBAR  ==========*/
+.navbar 
+	background: #fff
+	height: 85px
+	-webkit-transition: all linear .3s
+	-moz-transition: all linear .3s
+	transition: all linear .3s
+	
+	a.logo-s 
+		display: inline-block
+		float: left
+		margin: 15px 45px 0 60px
+	ul.menu-nav 
+		line-height: 85px
+		float: left
+		li 
+			display: inline-block
+			float: left 
+			margin-right: 45px
+		a 
+			color: $color-text
+
+	.big-btn
+		-moz-border-radius: 30px
+		-webkit-border-radius: 30px
+		border-radius: 30px /* border radius */
+		-moz-background-clip: padding
+		-webkit-background-clip: padding-box
+		background-clip: padding-box /* prevents bg color from leaking outside the border */
+		background-color: #000 /* layer fill content */
+		display: inline-block
+		height: 50px 
+		width: 190px
+		text-align: center 
+		line-height: 50px 
+		margin-top: 17px
+		color: #fff
+		text-transform: uppercase
+		text-decoration: none
+		-webkit-transition: all linear .3s
+		-moz-transition: all linear .3s
+		transition: all linear .3s
+		float: right
+		&:hover 
+			background: $color-dark-light
+	
+	.btn-nav
+		display: none
+
+.navbar.fixed
+	height: 50px
+	width: 100% 
+	position: fixed
+	z-index: 99999
+	top: 0
+	left: 0
+
+	a.logo-s 
+		height: 50px 
+		width: 50px 
+		margin-top: 10px
+		img 
+			width: 80%
+
+	ul.menu-nav 
+		line-height: 50px
+
+	.big-btn 
+		height: 30px
+		line-height: 30px
+		width: 150px
+		margin-top: 10px
+	
+/*========== END  NAVBAR  ==========*/

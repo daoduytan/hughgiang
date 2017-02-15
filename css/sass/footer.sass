@@ -1,0 +1,81 @@
+/*==========  FOOTER  ========*/
+.footer 
+	clear: both
+
+/*footer-top*/
+.footer-top
+	background: $color-text
+	color: $color-gray 
+	padding: 40px 0
+	
+	h3 
+		color: #fff
+		font-size: 18px
+		font-weight: 400 
+		text-transform: uppercase
+	.col-sm-2
+		ul 
+			font-size: 13px
+			li
+				margin-bottom: 10px 
+				padding-left: 15px 
+				position: relative
+
+				&:before 
+					display: block 
+					content: ''
+					width: 5px 
+					height: 5px 
+					background: $color-gray 
+					transform: rotate(45deg)
+					position: absolute
+					top: 8px 
+					left: 0
+
+	a
+		color: $color-gray 
+	
+	.text-center 
+		> a  
+			display: inline-block 
+			margin-bottom: 35px
+		p 
+			margin-bottom: 20px
+			a 
+				color: #fff 
+
+		ul 
+			li 
+				display: inline-block 
+				margin: 0 3px
+				padding: 0
+
+				a 
+					display: block 
+					height: 36px 
+					width: 36px 
+					line-height: 36px 
+					background: $color-dark
+					-webkit-border-radius: 50%
+					-moz-border-radius: 50%
+					border-radius: 50%
+					-webkit-transition: all linear .3s
+					-moz-transition: all linear .3s
+					transition: all linear .3s
+					&:hover 
+						color: #fff
+
+/*footer-bottom*/
+.footer-bottom 
+	background: $color-dark-light
+	height: 50px 
+	line-height: 50px 
+	color: $color-gray
+
+	ul 
+		li 
+			float: left
+			margin-right: 40px
+		a 
+			color: $color-gray
+/*========== END FOOTER  ========*/

@@ -1,0 +1,464 @@
+/*==========  SECTION  ==========*/
+.section 
+	padding-bottom: 70px
+	clear: both
+	overflow: hidden
+	.h-section 
+		text-align: center
+		margin-top: 90px 
+		background: url(images/line.png) no-repeat bottom center
+		padding-bottom: 30px
+		h2 	
+			font-size: 72px 
+			font-weight: bold
+			line-height: 43px
+			margin-bottom: 28px
+
+		span 
+			font-size: 18px 
+			text-transform: uppercase
+			color: $color1
+	.dec 
+		font-size: 18px 
+		line-height: 43px
+
+
+.colum
+	float: left
+	width: 50%
+	position: relative
+
+	.large, .small
+		float: left
+		width: 50%
+		// overflow: hidden
+	.large
+		height: 506px
+	.small
+		height: 253px
+
+/*----- section2 ------*/
+#section2 
+	padding-bottom: 70px
+	p 
+		font-size: 18px
+		line-height: 43px 
+		letter-spacing: .5px
+
+	a.btn 
+		display: inline-block
+		padding: 12px 37px 
+		border-radius: 25px
+		border: 1px solid $color-text
+		color: $color-text
+		text-decoration: none
+		&:hover 
+			background: $color-text 
+			color: #fff 
+
+/*----- section3 -----*/
+#section3
+	background: url(images/bg-gray.jpg) no-repeat top right 
+	background-size: 100% 100%
+	color: #fff
+	
+	h2 
+		font-size: 60px 
+		color: #fff
+		margin: 80px 0 15px 
+	span 
+		color: $color1
+		text-transform: uppercase
+
+	ul.list 
+		margin: 60px 0 0
+
+		li 
+			clear: both
+			border-bottom: 1px dashed $color-gray
+			margin-bottom: 70px
+			overflow: hidden
+			.pull-right 
+				padding-top: 20px
+			.pull-left 
+				padding-top: 20px
+
+			h3 
+				font-size: 30px 
+				font-weight: 400 
+				margin: 0
+			small  
+				display: block
+				width: 100%
+				margin: 0 
+				font-size: 14px
+
+			.price 
+				font-size: 60px
+				color: #fff
+
+	.frame 
+		background: url(images/frame.png) no-repeat top
+		background-size: 100%
+		height: 560px
+		margin-top: 80px
+
+
+		h3 
+			font-size: 30px
+			text-align: center
+			padding-top: 80px
+			margin-bottom: 70px
+
+		form 
+			width: 235px 
+			margin: auto
+
+			> ul
+				
+				> li 
+					position: relative
+					background: url(images/line2.png) no-repeat bottom center
+					margin-bottom: 20px
+					padding: 10px 0
+					margin-bottom: 25px
+
+					i 
+						float: right 
+
+
+					input[type="text"]
+						background: transparent 
+						border: none
+						&:focus + ul 
+							display: block
+				ul
+					position: absolute
+					top: 110%
+					left: 0 
+					width: 100%
+					background: $color-dark-light
+					z-index: 999
+					display: none
+					li 
+						float: left
+						width: 90px
+						padding: 5px 10px
+					a 
+						color: $color-gray
+						text-decoration: none
+						&:hover 
+							color: #fff
+
+
+
+			input[type="submit"] 
+				font-size: 16px 
+				padding: 12px 37px
+				border-radius: 25px
+				border: 1px solid #fff 
+				background: transparent
+				text-transform: uppercase
+				-webkit-transition: all linear .3s
+				-moz-transition: all linear .3s
+				transition: all linear .3s
+				&:hover 
+					background: $color1 
+
+
+
+/* section4 */
+#section4 
+	.box 
+		overflow: hidden
+		z-index: 1
+		&:hover 
+			.img 
+				img 
+					-webkit-transform: scale(1.5) rotate(10deg)
+					-moz-transform: scale(1.5) rotate(10deg)
+					transform: scale(1.5) rotate(10deg)
+					opacity: .7
+	.content 
+		background: #fff
+		padding: 30px 20px 0
+		position: relative
+		z-index: 999
+
+		&:before 
+			display: block 
+			content: ''
+			width: 20px 
+			height: 20px 
+			background: #fff 
+			-webkit-transform: rotate(45deg)
+			-moz-transform: rotate(45deg)
+			transform: rotate(45deg)
+			position: absolute 
+			top: 100px 
+			left: -8px
+
+
+		h3 
+			text-transform: uppercase
+			background: url(images/line.png) no-repeat bottom center
+			padding-bottom: 40px
+			margin-bottom: 50px
+		span 
+			font-size: 18px
+			color: #aca6a6
+			display: inline-block
+			margin-bottom: 25px
+		p 
+			margin: 0 0 35px
+
+	.img
+		overflow: hidden 
+		img
+			-webkit-transition: all linear .3s
+			-moz-transition: all linear .3s
+			transition: all linear .3s
+
+
+	.content.small 
+		h3 
+			margin-bottom: 30px
+
+	.content.yellow 
+		background: #fdfde0
+		&:before 
+			background: #fdfde0
+	.content.pink 
+		background: #f6e2e1
+		&:before 
+			background: #f6e2e1
+	.small.left 
+		&:before 
+			right: -8px 
+			left: inherit
+ 
+/* section5 */
+#section5 
+	.name 
+		margin-top: 30px
+		.face 
+			width: 123px 
+			height: 123px 
+			margin: auto 
+			border: 4px solid #e5cbb9
+			border-radius: 50%
+			padding: 5px
+			
+			img  
+				display: block 
+				max-width: 100%
+
+		p 
+			text-transform: uppercase
+			font-size: 18px
+			margin: -88px 0 100px
+			span 
+				border-top: 1px solid #d3d3d3
+				border-bottom: 1px solid #d3d3d3
+				display: inline-block 
+				margin: 0 85px
+				padding: 15px
+
+	.quote 
+		clear: both
+		span 
+			font-style: italic 
+			color: $color1
+			font-size: 30px
+			display: inline-block
+			position: relative
+			padding-bottom: 30px
+
+			&:after, &:before
+				position: absolute
+				display: block 
+				content: ''
+			&:before
+				width: 49px 
+				height: 36px
+				background: url(images/quote1.png) no-repeat center
+				top: -40px
+				left: -20px
+			&:after
+				width: 29px 
+				height: 22px
+				background: url(images/quote2.png) no-repeat center
+				top: 22px
+				right: -20px
+
+	.bx-pager-link 
+		background: $color-gray !important
+	.bx-pager-link.active 
+		background: $color1 !important
+
+/* section6 */
+#section6 
+	background: url(images/bg1.jpg) no-repeat 
+	background-size: auto 100%
+	min-height: 750px
+
+	h2  
+		color: #fff !important
+	
+	.col-sm-3
+		transition: all linear .3s
+		&:hover 
+			transform: translateY(-20px) scale(1.1)
+
+	.child-service 
+		background: #fff 
+		padding: 15px 15px 30px
+		position: relative
+		margin-top: 91px
+
+
+		&:after, &:before
+			display: block 
+			content: ''
+			height: 32px 
+			width: 100% 
+			position: absolute
+			left: 0
+		&:before 
+			background: url(images/h-ch.png) no-repeat top center 
+			background-size: 100%
+			top: -31px
+		&:after 
+			background: url(images/b-ch.png) no-repeat top center 
+			background-size: 100%
+			bottom: -31px
+
+		h3 
+			color: $color1 
+			text-transform: uppercase
+
+	.btn 
+		padding: 10px 30px 
+		color: $color-text 
+		border: 1px solid $color-text
+		-webkit-border-radius: 25px 
+		-moz-border-radius: 25px
+		border-radius: 25px
+
+			
+/* section7 */
+#section7
+	.item-post 
+		background: #fff
+
+		.thum 
+			display: block 
+			position: relative
+			overflow: hidden
+
+			&:hover 
+				img  
+					opacity: .7
+					-webkit-transform: scale(1.5) rotate(15deg)
+					-moz-transform: scale(1.5) rotate(15deg)
+					transform: scale(1.5) rotate(15deg)
+					
+			img 
+				max-width: 100%	
+				-webkittransition: all linear .3s
+				-moz-transition: all linear .3s
+				transition: all linear .3s
+	p 
+		padding: 0 15px
+	
+	p.meta 
+		margin: 0
+		height: 40px
+		line-height: 40px 
+		color: #a6a6a6
+		border-bottom: 1px solid #a6a6a6
+
+		span 
+			margin-right: 20px
+		
+	h4 
+		padding: 0 15px
+		a 
+			color: $color-text
+			font-size: 16px
+
+	p.more 
+		border-top: 1px solid #a6a6a6
+		height: 40px 
+		line-height: 40px
+		a 
+			color: #a6a6a6
+			
+/* section8 */
+#section8
+	height: 737px
+	overflow: hidden
+	background-image: url(images/bg-app.jpg)
+	padding-top: 167px 
+	color: #fff 
+	background-position: center center
+	background-repeat: no-repeat
+	background-attachment: fixed
+
+	h2 
+		font-size: 60px 
+		background: url(images/line.png) no-repeat bottom center 
+		padding-bottom: 30px
+		text-align: center
+		line-height: 50px
+	p 
+		font-size: 16px
+		text-align: center 
+		margin: 0 0 15px
+
+
+/* section9 */
+#section9 	
+	padding-top: 90px
+	#bx-pager 
+		text-align: center 
+		height: 150px
+		display: table 
+		margin: auto
+
+		a 
+			display: table-cell 
+			vertical-align: middle
+			height: 130px
+			width: 130px
+			margin: auto
+
+
+			img 
+				width: 75px 
+				height: 75px	
+				border-radius: 50% 
+				transition: all linear .3s
+				
+		.active 
+			width: 150px
+			img  
+				width: 113px 
+				height: 113px
+				padding: 5px
+				border: 5px solid $color1
+				transition: all linear .3s
+
+	.bxslider
+		text-align: center
+		color: #515151
+		font-style: italic 
+
+		p 
+			font-size: 30px 
+			line-height: 36px
+		span 
+			font-size: 18px  
+			display: inline-block
+
+/*========== END SECTION  ==========

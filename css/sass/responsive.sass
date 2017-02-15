@@ -1,0 +1,297 @@
+/*==========  RESPONSIVE  ==========*/
+
+/*-----  large desktop  ------*/
+@media (max-width: 1400px) 
+	#header 
+		height: 670px
+		.logo-b
+			margin-bottom: 80px
+			padding-top: 30px
+				
+			img 
+				width: 400px
+
+		.feature 
+			margin-bottom: 60px
+
+
+/*-----  small desktop  ------*/
+@media (max-width: 1199px) 
+	.navbar 
+		ul.menu-nav 
+			li 
+				margin-right: 20px
+
+	#section3 
+		.frame 
+			h3
+				margin-bottom: 20px 
+				padding-top: 70px
+
+	#section6 
+		.child-service:before
+			top: -24px
+
+/*-----  large table  ------*/
+@media (max-width: 991px) 
+	.section 
+		.h-section 
+			h2 	
+				font-size: 40px 
+			span 
+				font-size: 15px 
+	.navbar 
+		height: 50px
+		position: relative
+		z-index: 99999
+		a.logo-s
+			height: 50px 
+			width: 50px 
+			margin: 15px 15px 0 15px
+			img 
+				width: 80%
+		ul.menu-nav 
+			position: absolute 
+			top: 100% 
+			left: 0
+			clear: both
+			float: none 
+			display: none
+			background: $color-dark 
+			border-radius: 5px
+			auto
+			color: #fff
+			li 
+				display: block 
+				line-height: 1.5
+				float: none
+				padding: 5px 10px
+		.big-btn 
+			height: 30px
+			line-height: 30px
+			width: 150px
+			margin-top: 10px
+		
+
+		.btn-nav 
+			float: left
+			font-size: 30px 
+			background: none
+			border: none
+			margin-top: 10px
+			display: block
+		ul.menu-nav.open 
+			display: block
+
+	#section3 
+		background-size: auto 100%
+		.frame
+			margin: auto
+			width: 370px 
+			min-height: 380px
+			background-size: 100%
+			// h3
+			// 	margin-bottom: 20px 
+			// 	padding-top: 40px
+
+	#section4 
+		.content 
+			h3
+				font-size: 13px
+				margin-bottom: 15px
+			p
+				margin: 0 0 15px
+
+	#section6 
+		.child-service:before
+			top: -17px
+		.btn 
+			font-size: 11px
+			padding: 8px 30px
+			text-transform: capitalize
+
+	#section8
+		overflow: none
+		height: auto
+		background-size: auto 100%
+		padding: 0
+
+		h2 
+			font-size: 25px
+
+		.phone 
+			width: 270px 
+			margin: 86px auto 0
+			img 
+				width: 100%
+	.bx-controls-direction 
+		display: none !important
+	
+	#section7 
+		.bx-pager
+			display: block !important
+
+/*-----  medium desktop  ------*/
+@media (max-width: 767px)
+	#header 
+		background-size: auto 100%
+		height: auto
+		.logo-b
+			margin-bottom: 80px
+			padding-top: 30px
+	/*==========  footer  ==========*/	
+	.footer-top
+		text-align: center
+		
+		.col-sm-2 
+			ul 
+				li 
+					padding: 0
+					&:before 
+						display: none
+		.col-sm-4 
+			margin-top: 30px 
+
+	.footer-bottom 
+		height: auto 
+		line-height: 1.5
+		padding: 10px 0
+		.pull-right, .pull-left 
+			float: none !important
+			text-align: center
+
+		ul 
+			margin-bottom: 15px
+			li 
+				margin: 0 5px 
+				float: none 
+				display: inline-block
+
+				a 
+					font-size: 12px
+
+	/*==========  section  ==========*/
+	.section 
+		.h-section 
+			h2
+				font-size: 40px
+	/*==========  section3  ==========*/
+	#section3 
+		.frame
+			margin: auto
+			width: 270px 
+			height: auto
+			background-size: 100%
+			h3
+				margin-bottom: 20px 
+				padding-top: 40px
+
+		h2 
+			font-size: 25px
+		ul.list 
+			li 
+				h3 
+					font-size: 18px
+				.price 
+					font-size: 30px
+	/*==========  section4  ==========*/
+	#section4 
+		.content 
+			h3
+				font-size: 12px
+				margin-bottom: 10px
+			p
+				margin: 0 0 10px
+			span 
+				margin-bottom: 10px
+
+	/*==========  section6  ==========*/
+	#section6
+		.child-service
+			width: 270px
+			margin: 60px auto 100px
+			&:before 
+				top: -31px
+	/*==========  section8  ==========*/
+	#section8
+		overflow: none
+		height: auto
+		background-size: auto 100%
+		padding: 0
+
+		h2 
+			font-size: 25px
+
+		.pull-right, .pull-left 
+			float: none !important
+		
+/*-----  large phone  ------*/
+@media (max-width: 600px)
+	/*==========  section5  ==========*/
+	#section5 
+		.name 
+			p
+				margin: 15px 0 0 
+				span 
+					margin: 0 
+					padding: 15px 0px
+		.quote 
+			span 
+				font-size: 14px
+				&:after, &:before 
+					display: none 
+
+/*-----  small desktop  ------*/
+@media (max-width: 480px)
+	/*==========  header  ==========*/
+	.colum 
+		width: 100%
+	#header 
+		.logo-b
+			width: 200px
+			margin-right: auto
+			margin-left: auto
+			img 
+				width: 100%
+
+		.feature 
+			img 
+				width: 50%
+			h3 
+				font-size: 12px
+
+	/*==========  section  ==========*/
+	.section 
+		.h-section 
+			h2
+				font-size: 25px
+	
+	/*==========  section3  ==========*/
+	#section3 
+		.frame
+			margin: auto
+			width: 270px 
+			background-size: 100%
+
+		h2 
+			font-size: 25px
+		ul.list 
+			li 
+				h3 
+					font-size: 18px
+				.price 
+					font-size: 30px
+
+	/*==========  section9 ==========*/
+	#section9 
+		.bxslider 
+			p
+				font-size: 18px
+			span 
+				font-size: 13px
+
+@media (max-width: 320px)
+	#section7
+		.bxslider 
+			li 
+				width: 100% !important

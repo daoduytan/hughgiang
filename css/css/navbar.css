@@ -1,0 +1,17 @@
+.navbar {
+  line-height: 85px;
+  height: 85px;
+  background: gray;
+}
+.navbar a.logo-s {
+  float: left;
+  margin-right: 60px;
+}
+.navbar ul.menu-nav {
+  float: left;
+}
+.navbar ul.menu-nav li {
+  display: inline-block;
+  float: left;
+  margin-right: 45px;
+}
